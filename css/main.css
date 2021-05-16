@@ -1,0 +1,23 @@
+
+.grid__item{
+    padding: 20px;
+
+}
+.grid__item--left{
+    grid-row: 2;
+    grid-column: 1/2;
+}
+.grid__item--top{
+grid-column: 2/3;
+grid-row: 1/4;
+
+}
+.grid__item--right{
+grid-column: 3/4;
+grid-row: 2;
+
+}
+.grid__item--bottom{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}

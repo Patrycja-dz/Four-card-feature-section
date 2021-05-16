@@ -1,0 +1,23 @@
+.header {
+    max-width: 500px;
+    text-align: center;
+   margin: 0 auto;
+
+}
+
+.header__heading {
+    margin: 20px auto 30px auto ;
+
+}
+
+.header__thinElement {
+    font-weight: 200;
+}
+
+.header__boldedElement {
+    font-weight: 600;
+}
+
+.header__paragraph {
+    color: hsl(229, 6%, 66%);
+}

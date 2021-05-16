@@ -1,0 +1,16 @@
+.section {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 200px 100px 200px 100px 200px 200px ;
+    gap: 30px;
+
+}
+@media (max-width:370px){
+    .section{
+        grid-template-columns: 1fr;
+    }
+
+}
